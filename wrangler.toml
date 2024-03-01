@@ -1,10 +1,10 @@
-name = "cloudflare-url-shortener"
+name = "url-shortener"
 type = "javascript"
 workers_dev = true
-compatibility_date = "2022-01-20"
+compatibility_date = "2024-03-01"
 
 kv_namespaces = [
-  { binding = "KV", id = "a9b76f023a6f4f5b8ab94920fa0edd84", preview_id = "2d870490f0864168b65ae9fac9e483f2" },
+  { binding = "url", id = "97f51d214039495cbc65f425cc2336b5", preview_id = "5f1a3f28bc93c4da54ff81847bcfc4d2" },
 ]
 
 [build]
@@ -20,4 +20,4 @@ globs = ["**/*.wasm"]
 type = "CompiledWasm"
 
 # read more about configuring your Worker via wrangler.toml at:
-# https://developers.cloudflare.com/workers/cli-wrangler/configuration
+# https://developers.cloudflare.com/workers/cli-  wrangler/configuration
