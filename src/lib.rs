@@ -74,7 +74,7 @@ impl UrlShortener {
 
                         if kv_result.is_ok() {
                             return Response::from_html(format!(
-                                "URL Successfully Shortened! You can access it at: https://s.qewer.dev/{}",
+                                "URL Successfully Shortened! You can access it at: https://s.derias.site/{}",
                                 &req_body.key
                             ));
                         }

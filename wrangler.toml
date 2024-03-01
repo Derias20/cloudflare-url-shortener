@@ -4,7 +4,7 @@ workers_dev = true
 compatibility_date = "2024-03-01"
 
 kv_namespaces = [
-  { binding = "url", id = "97f51d214039495cbc65f425cc2336b5", preview_id = "5f1a3f28bc93c4da54ff81847bcfc4d2" },
+  { binding = "KV", id = "f9656cde0b994972ab074a9a3c962979"},
 ]
 
 [build]
